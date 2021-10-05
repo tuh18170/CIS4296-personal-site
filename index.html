@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script defer src="fontawesome/js/all.js"></script>
-    <title>John Doe</title>
+    <title>Abdullah Jandali</title>
     <style>
         html,
         body {
             height: 100%;
             font-family: 'Merriweather Sans', sans-serif;
             scroll-behavior: smooth;
+			background-color: #ECE2D2;
         }
 
         .faded {
@@ -31,8 +32,8 @@
 
         .btn-outline {
             color: black;
-            background-color: white;
-            border: 2px solid black;
+            background-color: #BCDCFF;
+            border: 2px solid #0051C1;
             opacity: 0.5;
             transition: 0.3s;
 
@@ -44,6 +45,11 @@
 
         .lang {
             height: 60px;
+            transition: 0.3s;
+        }
+		
+		.pic {
+            height: 150px;
             transition: 0.3s;
         }
 
@@ -82,7 +88,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="#landing">Abdullah Jandali<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -104,43 +110,28 @@
     </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Howdy!</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
-                University.</h5>
+            <h5 class="display-5 mx-auto faded text-center">Welcome to Abdullah Jandali's Website!</h5>
         </div>
         <div class="row my-4">
-            <div class="col my-3"><img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Python" /></div>
-            <div class="col my-3"><img src="images/angular.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Angular" /></div>
-            <div class="col my-3"><img src="images/typescript.jpg" class="lang" data-toggle="tooltip"
-                    data-placement="top" title="TypeScript" /></div>
-
-            <div class="col my-3"><img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="C#" /></div>
-            <div class="col my-3"><img src="images/node.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Node.js" /></div>
-            <div class="col my-3"><img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Java" /></div>
-
-            <div class="col my-3"><img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="ASP.NET" /></div>           
-                     <div class="col my-3"><img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Microsoft SQL Server" /></div> <div class="col my-3"><img src="images/mongodb.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="MongoDB" /></div>
-
+			<div class="col"><img src="images/TempleT.png" class="pic" data-placement="top"/></div>
+            <div class="col my-5"><img src="images/angular.png" class="lang" data-toggle="tooltip" data-placement="top" title="Angular" /></div>
+            <div class="col my-5"><img src="images/csharp.png" class="lang" data-toggle="tooltip" data-placement="top" title="C#" /></div>
+            <div class="col my-5"><img src="images/java.png" class="lang" data-toggle="tooltip" data-placement="top" title="Java" /></div>         
+			<div class="col my-5"><img src="images/mssql.png" class="lang" data-toggle="tooltip" data-placement="top" title="Microsoft SQL Server" /></div>
+			<div class="col"><img src="images/TelpmeT.png" class="pic" data-placement="top"/></div>
         </div>
         <div class="row my-4">
             <div class="col">
-                <a href="#projects"><button type="button" class="btn btn-outline">Projects</button></a>
+                <a href="#projects"><button type="button" class="btn btn-outline">My Projects</button></a>
             </div>
             <div class="col">
                 <a href="#courses"><button type="button" class="btn btn-outline">Courses</button></a>
             </div>
             <div class="col">
-                <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
+                <a href="#contact"><button type="button" class="btn btn-outline">Contact Me</button></a>
             </div>
         </div>
         <div class="row mt-5 next">
@@ -150,41 +141,22 @@
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Projects</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">My Projects</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
+            <h5 class="display-5 mx-auto faded text-center mb-4">Just a few things I threw together.</h5>
         </div>
         <div class="row w-100">
-            <h5>Inspiro for Esperanza</h5>
+            <h5>Personal Project Website</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
-                in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
-                sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
-                tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
-                purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero. </p>
+            <p class="text-justify">For CIS3344, our lab assignments had to link back to a website that we made that contains all of our work. I was very proud of the projects that I made in that website, and I still look back at it for pointers and reminders of how JavaScript, JQuery, and JSON work. If you'd like to see, follow <a href="https://cis-iis2.temple.edu/Spring2021/CIS3344_tuh18170/index.html">this link!</a></p>
         </div>
         <div class="row w-100">
-            <h5>Work From Home Pinterest</h5>
+            <h5>SeaGames</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
-                finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
-                sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta. </p>
-        </div>
-        <div class="row w-100">
-            <h5>Query Dating Site</h5>
-        </div>
-        <div class="row w-100">
-            <p class="text-justify">Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
-                egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
-                tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
-                amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
-                Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at. </p>
+            <p class="text-justify">In the same CIS3344 class, me and my partner had to make a website together. So we worked together to make SeaGames, a website where people can look up games, and rate and review them. We also added a fun little survey that find the user three games they might like based on their answers to the questions. It was my first experience in working on code with someone else, and helped me understand using Git and Github a lot more.</p>
         </div>
         <div class="row mt-5 next">
             <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
@@ -195,19 +167,19 @@
             <h4 class="display-4 font-weight-bold mx-auto text-center">Courses</h4>
         </div>
         <div class="row mx-auto mb-4">
-            <h5 class="display-5 mx-auto faded text-center">Not as tasty as a main course, but close.</h5>
+            <h5 class="display-5 mx-auto faded text-center">Credits to credits, courses to courses.</h5>
         </div>
         <div class="row w-100 justify-content-center my-3">
             <div class="col text-center course">
-                <h5>Information Systems Analysis and Design</h5>
+                <h5>Technical Writing</h5>
             </div>
             <div class="col text-center course">
-                <h5>Server-Side Web Application Development</h5>
+                <h5>Information Technology Project Management</h5>
             </div>
         </div>
         <div class="row w-100 justify-content-center my-3">
             <div class="col text-center course">
-                <h5>Network Architectures</h5>
+                <h5>Database Management Systems</h5>
             </div>
             <div class="col text-center course">
                 <h5>Client-Side Scripting</h5>
@@ -215,10 +187,10 @@
         </div>
         <div class="row w-100 justify-content-center my-3">
             <div class="col text-center course">
-                <h5>Component-Based Software Design</h5>
+                <h5>Component-Based Software</h5>
             </div>
             <div class="col text-center course">
-                <h5>Database Management Systems</h5>
+                <h5>Client-Side Scripting</h5>
             </div>
         </div>
         <div class="row mt-5 next">
@@ -227,18 +199,14 @@
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Talk wordy to me.</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
+            <h5 class="display-5 mx-auto faded text-center">I hate that I wrote that.</h5>
         </div>
         <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
-                    data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
-                    data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
-                    data-toggle="tooltip" data-placement="top" title="Github"></i></a>
+            <a href="mailto:abdullahj1899@gmail.com" class="col mx-3"><i class="fas fa-envelope-square" data-toggle="tooltip" data-placement="top" title="Email"></i></a>
+			<a href="https://github.com/tuh18170" class="col mx-3"><i class="fab fa-github-square" data-toggle="tooltip" data-placement="top" title="Github"></i></a>
 
         </div>
         <div class="row mt-5">
